@@ -5,9 +5,8 @@ The Mosaic Hub
 ##############
 
 The Mosaic Hub front-end is the main tool for S2GM users.
-It allows for the specification of S2GM products in terms of the spatial extent as well as the compositing period
-and the format of the output products.
-The front-end guides the user through the process of this product specification.
+It allows to specify S2GM products in terms of the spatial extent as well as the compositing period
+and the format of the output products. The front-end guides the user through the process of this product specification.
 A registration is required before requesting and downloading mosaics.
 
 
@@ -40,7 +39,7 @@ Mosaic Hub
 The Mosaic Hub is located `here <https://webdev.sentinel-hub.com/mosaic-hub/#/>`_.
 
 However, in order to download the processed products, you will have to install the "Mosaic Downloader" App.
-In fact, this App has the same functionality like the browser instance. In order to not have to switch between browser and
+In fact, this App has the same functionality like the browser instance. In order to avoid switching between browser and
 Mosaic Downloader, it might be more convenient to work with the App from the beginning.
 
 
@@ -78,7 +77,7 @@ When you launch the App, you will see a window like in :numref:`mosaicDownloader
 
    Mosaic Downloader App Window (Sentinel view)
 
-The menu of the App has menu buttons in the top; clicking on them brings up the following functionality:
+The menu of the App on the top will bring up the following functionality after clicking:
 
 .. .. todo::
    Replace TBD with content. Discuss with Sinergise what shall be behind the links.
@@ -108,7 +107,7 @@ The menu of the App has menu buttons in the top; clicking on them brings up the 
 +------------------------+------------------+
 
 
-The App Window is separated vertically with the dynamic map on the right and the temporal and spatial
+The App Window is split with the dynamic map on the right and the temporal and spatial
 configuration options on the left. Users can scroll and zoom into the map to focus on an area of interest.
 
 
@@ -124,15 +123,12 @@ Area Selection
 
    Area Selection
 
-As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, there are different options to define the area for which the mosaic product will be generated:
+As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options exist to define the area for which the mosaic product will be generated (Note: Your product might be split into several tiles if it spans a large area - see also the warning displayed on :numref:`orderPanelOrder`):
 
-Note that your product might be split into several tiles if it spans a large area (see also the warning displayed on :numref:`orderPanelOrder`).
-
-* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`).
-* Uploading a kml or kmz shape file. The upload button is located on the second tab in the area selection menu of the configuration menu.
-* Selection of a pre-defined area, i.e. a country or a continent, in the dropdown menus of the configuration menu.
-* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`.
-  Note that in WKT the first and last co-ordinates must be identical to close the polygon.
+* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`)
+* Uploading a kml or kmz shape file; the upload button is located on the second tab in the area selection menu of the configuration menu
+* Selection of a pre-defined area, i.e. a country or a continent, in the dropdown menus of the configuration menu
+* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon
 
 
 .. _drawingTools:
@@ -157,8 +153,8 @@ Note that your product might be split into several tiles if it spans a large are
 Compositing Periods
 -------------------
 The definition of the compositing period is done in the temporal period section of the configuration menu.
-There are five different compositing lengths to choose from: year, season, month, 10-day, day.
-For each of these compositing lengths, pre-defined periods can be selected by choosing the desired option in the corresponding tabs.
+Five different compositing periods can be selected: year, season, month, 10-day, day.
+For each of these compositing periods, pre-defined periods can be selected by choosing the desired option in the corresponding tabs.
 Unavailable periods are disabled and marked in grey colour. In the 10-day and the day tabs, one can select months and years
 from drop-down lists. The forward and backward scrolling can be done by clicking on the arrow symbol.
 
@@ -205,8 +201,8 @@ The selection of the desired month as compositing period is straightforward (:nu
 
    Compositing Dialog (10 days)
 
-The definition of a ten-days period is bound to pre-defined, fixed intervals.
-The latter are displayed on the specific tab. Start- and end-days are marked in dark green,
+The definition of a ten-day-period is bound to pre-defined, fixed intervals.
+The latter are displayed on the specific tab. Start and end days are marked in dark green,
 the intermediate values in light green (see :numref:`compositing10Days`). Clicking on either day in the interval yields the same result.
 
 .. _compositingDay:
@@ -218,10 +214,10 @@ the intermediate values in light green (see :numref:`compositing10Days`). Clicki
 
    Compositing Dialog (Day)
 
-The selection of the desired month as compositing period is straightforward (:numref:`compositingDay`).
+The selection of the desired day as compositing period is straightforward (:numref:`compositingDay`).
 
 
-Once area of interest and compositing period have been selected, users must define further properties in the Order Panel dialogue.
+Once the area of interest and compositing period have been selected, users must define further properties in the Order Panel dialogue.
 Click on "**PREPARE DOWNLOAD**" to enter the Order Panel.
 
 
@@ -286,7 +282,7 @@ you will be able to download your products in the :ref:`userArea`.
 
 .. note::
    In case your order will include more than 1 million m², product size will be very large and processing time may
-   be considerable. In this case we will get in touch with you in order identify best way of production scheduling and
+   be considerable. In this case, we will get in touch with you in order identify the best way of production scheduling and
    product distribution.
 
 .. _time_series:
@@ -307,7 +303,7 @@ A click on the button "**Time Series**" brings up the following page (see :numre
    Time Series Dialog Page
 
 Fill out all sections of the dialog and select the target pixel(s) on the map. Klicking on the lower symbol toggles
-between 1x1 and 3x3 pixels in the particular resolution (:numref:`timeSeriesPixels`). When done, click on "**Generate**".
+between single pixel and 3x3 pixels in the particular resolution (:numref:`timeSeriesPixels`). When done, click on "**Generate**".
 
 .. _timeSeriesPixels:
 .. figure:: images/TimeSeriesPixels.png
@@ -369,8 +365,8 @@ Clicking on the button "**User Area**" in the Mosaic Hub App brings up the follo
    User Area
 
 The User Area is the place where you can download your products after completion of the production. The user area also
-allows you to monitor and cancel your orders during production or get in touch with the s2gm team in case of issues.
-after completion of a production your products will be available for a period of 2 weeks for download.
+allows you to monitor and cancel your orders during production or get in touch with the S2GM team in case of issues.
+After completion of a production, your products will be available for a period of 2 weeks for download.
 The User Area displays all current mosaic orders. You are able to filter for a production name to narrow your search.
 If something went wrong, you can inform the S2GM team by clicking on the envelope icon. Orders can be cancelled by clicking
 on the red cross icon. If the status of an order is finished, the download icon changes to green. When you click on it,
@@ -388,9 +384,9 @@ Hovering the list will turn the entries from grey to black. A click on the black
    Mosaic Downloader List
 
 As already mentioned above: if you selected a large area, the orders might be split into several tiles that appear in the
-download list after you clicked on the download button. To avoid unnecessary processing in the Hub,
+download list after you clicked on the download button. To avoid unnecessary processing in the Mosaic Hub,
 processings and thus the downloads will proceed only after user involvement. Also, you will be notified that more tiles
-might be available (:numref:`moreTiles`). The red check mark signifies that the download isn't yet complete.
+might be available (:numref:`moreTiles`). The red check mark signifies that the download is not yet complete.
 
 .. _moreTiles:
 .. figure:: images/MoreTiles.png
