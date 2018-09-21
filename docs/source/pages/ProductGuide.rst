@@ -4,7 +4,7 @@
 Product Guide
 #############
 
-The content of Mosaic Hub products is variable and dependent on the selection done by the user during the :ref:`order process <order>`.
+The content of Mosaic Hub products is variable and dependents on the selection done by the user during the :ref:`order process <order>`.
 The Product Guide describes all available contents.
 
 .. _data:
@@ -27,11 +27,10 @@ The following chapter give more detailed information on the available bands.
 
 Surface reflectance bands
 =========================
-The Mosaic Hub delivers products with reflectance bands chosen by the user in
+The Mosaic Hub delivers products with surface reflectance bands chosen by the user in
 the :ref:`band selection <orderPanel>` section of the Mosaic Hub order panel.
 The surface reflectance is computed using the “Sentinel-2 Atmospheric Correction”
-(L2A_AtmCorr) algorithm and based on reference radiative transfer code.
-Look Up Tables (LUTs) are based on LibRadtran.
+(L2A_AtmCorr) algorithm implemented into Sen2Cor and is based on Radiative Transfer Look-Up Tables (LUTs) pre-calculated with LibRadtran.
 
 .. .. todo::
    Shouldn't we refer to Sen2Cor here instead of L2A_AtmCorr? Sen2Cor is referenced at other location in the user manual, too.
@@ -48,7 +47,7 @@ resolutions of the Sentinel-2 L2A input products.
 
 Quality indicator bands
 =======================
-All products additionally provide quality indicator bands, if selected.
+All products additionally provide quality indicator bands, if selected by the user.
 
 .. _quality_indicator_bands_table:
 .. csv-table:: Quality Indicator bands
@@ -71,7 +70,7 @@ The following figure shows a list of all quality_scene_classification classes
    Scene classification map classes
 
 
-The following figure gives an example of an applied classification map:
+The following figure is an example for a Scene Classification map:
 
 
 .. _sceneClassifMapExample:
@@ -87,7 +86,7 @@ The following figure gives an example of an applied classification map:
 
 View and sun geometry bands
 ===========================
-The products additionally provide view and sun geometry information, if selected.
+The products additionally provide view and sun geometry information, if selected by the user.
 
 .. _view_and_sun_geometry_table:
 .. csv-table:: View and sun geometry bands
@@ -100,7 +99,7 @@ The products additionally provide view and sun geometry information, if selected
 
 Validation bands
 ================
-The products provide information on the validity of an observation (pixel), if selected.
+The products provide information on the validity of an observation (pixel), if selected by the user.
 
 .. _validation_bands_table:
 .. csv-table:: Validation bands
@@ -113,7 +112,7 @@ The products provide information on the validity of an observation (pixel), if s
 
 Medoid quality bands
 ====================
-Finally, a quality measure for the Medoid compositing algorithm is included, if selected.
+Finally, a quality measure for the Medoid compositing algorithm is included, if selected by the user.
 
 .. _medoid_bands_table:
 .. csv-table:: Medoid quality bands
@@ -124,7 +123,7 @@ Finally, a quality measure for the Medoid compositing algorithm is included, if 
 
 Resolution
 **********
-All Mosaic Hub raster products are provided in uniform resolution. Three different resolutions are available:
+All raster products of the Mosaic Hub are provided in uniform resolution and are available in three different resolutions:
 
 - 10m
 - 20m
@@ -134,14 +133,13 @@ All Mosaic Hub raster products are provided in uniform resolution. Three differe
 
 Coordinate Reference Systems (CRS)
 **********************************
-The Mosaic Hub raster products are provided either projected in UTM(WGS84) or unprojected using WGS84
+The raster products of the Mosaic Hub are provided either projected in UTM(WGS84) or unprojected (lat/lon) using WGS84.
 
 .. _utm:
 
 UTM
 ===
-Universal Transverse Mercator (UTM) conformal projection is not a single map projection.
-The system instead divides the Earth into sixty zones, each being a six-degree band of longitude,
+The Universal Transverse Mercator (UTM) conformal projection is not a single map projection. Instead, the system divides the Earth into sixty zones, each being a six-degree band of longitude,
 and uses a secant transverse Mercator projection in each zone. WGS84 is used as ellipsoid for UTM.
 
 .. _wgs:
@@ -160,14 +158,14 @@ The Mosaic Hub raster products are available in three different file formats:
 - Jpeg2000
 - NetCDF
 
-File format properties are described in the following chapter. Where needed a
+The properties of the file formats are described in the following chapter. Where needed, a
 distinction is made between the different formats.
 
 File Structure
 ==============
 File structures are mainly identical for GeoTiff,
-Jpeg2000 and NetCDF. Therefore, no explizit chapters for the single formats
-exist. Differences are indicated within the single chapter.
+Jpeg2000, and NetCDF. Therefore, no explizit chapters for the single formats
+exist. Differences are indicated within the individual sections.
 
 .. _folders:
 
@@ -175,10 +173,10 @@ Folders
 -------
 The Mosaic Hub products are organized in a folder structure. The product's structure
 consists of a base folder, containing all data of one order, a sub/tile folder
-containing one or multiple folders, holding single product or tiles if a tiling is needed.
-Within these sub folders the actual data is stored.
+containing one or multiple folders, holding a single product or tiles if a tiling is needed.
+Within these sub folders, the actual data is stored.
 
-Structure example for GeoTiff format:
+Example of the folder and file structure for the GeoTiff format:
 
 
 .. _fileStructExample:
@@ -188,13 +186,13 @@ Structure example for GeoTiff format:
    :alt: File structure example
    :align: center
 
-   File structure example
+   Example of the file/folder structure
 
 .. _files:
 
 Files
 -----
-Depending on the format the number of files varies.
+Depending on the format, the number of files varies.
 
 GeoTiff/Jpeg2000:
     The product is delivered in 23 separate files. 22 GeoTiff/Jpeg2000 files
@@ -212,7 +210,7 @@ Tiling
 The product is split into the area of original Sentinel-2 granules.
 For a detailed description of the Sentinel-2 tiling scheme please
 visit the `official website`__. A tiling of the products is only done
-if :ref:`UTM <utm>` projection is chosen as :ref:`CRS <crs>` and the
+if the :ref:`UTM <utm>` projection is chosen as :ref:`CRS <crs>` and the
 chosen area exceeds a certain size.
 
  .. _s2_tiling: https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products
@@ -227,8 +225,8 @@ __ s2_tiling_
 Naming conventions
 ==================
 Naming conventions are mainly identical for GeoTiff,
-Jpeg2000 and NetCDF. Therefore, no explicit chapters for the single formats
-exist. Differences are indicated within the single chapter
+Jpeg2000, and NetCDF. Therefore, no explicit chapters for the individual formats
+exist (differences are indicated where necessary).
 
 The product name (folders & files) contains key information on its content. Product names
 support easy identification of relevant files and support meaningful sorting.
@@ -258,14 +256,14 @@ Two examples:
 |
 
 
-Sub folder
+Subfolders
 ----------
 
-The sub folder naming differs for tiled and none-tiled products (see :ref:`tiling <tiling>`).
+The naming of the subfolders differ for tiled and none-tiled products (see :ref:`tiling <tiling>`).
 
-*Non-tiled products*: The sub-folder name is equal to your order name (see {AA...AA} in :ref:`base folder table <base_folder_table>`)
+*Non-tiled products*: The subfolder name is equal to the order name (see {AA...AA} in :ref:`base folder table <base_folder_table>`)
 
-*Tiled products*: The sub folder names are equal to Sentinel-2 granule names (see :ref:`tiling <tiling>`)
+*Tiled products*: The subfolder names are equal to Sentinel-2 granule names (see :ref:`tiling <tiling>`)
 
 Files
 -----
@@ -273,11 +271,11 @@ The file naming differs for GeoTiff/Jpeg2000 and NetCDF due to the structuring o
 
 **GeoTiff/Jpeg2000:**
 
-In GeoTiff and Jpeg2000 format all raster bands are stored in separate files (see :ref:`Files <files>`)
+For the GeoTiff and Jpeg2000 format, all raster bands are stored as separate files (see :ref:`Files <files>`)
 
 {RasterBandIdentifier}_{TemporalIdentifierSpatialIdentifier}_{PeriodStart}_{OrderName}.{FileExtension}
 
-In short, and with the correct length  indicated by placeholders (if not variable; variability indicated by ...):
+In short, and with the correct length indicated by placeholders (if not variable; variability indicated by ...):
 
 {BB...BB}_{TSS}_{SSSSSSSS}_{AA...AA}.{ext}
 
@@ -298,11 +296,11 @@ In short, and with the correct length  indicated by placeholders (if not variabl
 
 **NetCDF**
 
-In NetCDF format all raster bands are stored in a single NetCDF (.nc) file (see :ref:`Files <files>`)
+For the NetCDF format, all raster bands are stored in a single NetCDF (.nc) file (see :ref:`Files <files>`)
 
 {TemporalIdentifierSpatialIdentifier}_{PeriodStart}_{OrderName}.{FileExtension}
 
-In short, and with the correct length  indicated by placeholders (if not variable; variability indicated by ...):
+In short, and with the correct length indicated by placeholders (if not variable; variability indicated by ...):
 
 {TSS}_{SSSSSSSS}_{AA...AA}.{ext}
 
@@ -354,7 +352,7 @@ the same information in the internal metadata.
 Software
 ********
 
-In this section you will get a brief introduction how to open Mosaic Hub products in SNAP or QGIS. The introduction is
+In this section, you will get a brief introduction how to open Mosaic Hub products in SNAP or QGIS. The introduction is
 limited to the two most common open source platforms used for Sentinel-2 data.
 
 .. _snap:
@@ -362,7 +360,7 @@ limited to the two most common open source platforms used for Sentinel-2 data.
 SNAP
 ====
 `SNAP`__ stands for Sentinel Aplication Platform and is the official ESA software and common architecture for all
-Sentinel Toolboxes. It can be downloaded from http://step.esa.int/main/download/
+Sentinel Toolboxes. It can be downloaded at: http://step.esa.int/main/download/
 
 .. _SnapWeb: http://step.esa.int/
 
@@ -390,7 +388,7 @@ Open product:
    :alt: SNAP open example
    :align: center
 
-   SNAP example: open with file explorer
+   SNAP example: Open with file explorer
 
 
 .. _snapFileOpenTwoExample:
@@ -400,7 +398,7 @@ Open product:
    :alt: SNAP open example
    :align: center
 
-   SNAP example: select .json file
+   SNAP example: Select .json file
 
 .. _snapFileDragDropExample:
 .. figure:: images/SNAP_dragdrop.png
@@ -409,12 +407,12 @@ Open product:
    :alt: SNAP open example
    :align: center
 
-   SNAP example: open via drag & drop
+   SNAP example: Open via drag & drop
 
 Afterwards the product will be shown in the "Product Explorer" window. Now you can investigate the content of the
-product by clicking on the "+" signs. To view the product right-click on the product name in the "Product Explorer" and
+product by clicking on the "+" signs. To view the product, right-click on the product name in the "Product Explorer" and
 select :ref:`"Open RGB Image Window" <snapRGBrightClick>`. In the :ref:`"Select RGB-Image Channels" <snapRGBprofile>` window choose a band
-combination that fits your needs. In this example the combination of Bands 4, 3, and 2 were used for RGB.
+combination that fits your needs. In this example, the combination of Bands 4, 3, and 2 were used for RGB.
 
 .. _snapRGBrightClick:
 .. figure:: images/SNAP_openRGB.png
@@ -423,7 +421,7 @@ combination that fits your needs. In this example the combination of Bands 4, 3,
    :alt: SNAP open example
    :align: center
 
-   SNAP example: open RGB view
+   SNAP example: Open RGB view
 
 .. _snapRGBprofile:
 .. figure:: images/SNAP_openRGB2.png
@@ -432,7 +430,7 @@ combination that fits your needs. In this example the combination of Bands 4, 3,
    :alt: SNAP open example
    :align: center
 
-   SNAP example: select RGB profile (e.g. 4/3/2)
+   SNAP example: Select RGB profile (e.g. 4/3/2)
 
 The selected RGB combination will be shown in a :ref:`new window <snapRGB>`.
 
@@ -449,7 +447,7 @@ The selected RGB combination will be shown in a :ref:`new window <snapRGB>`.
 
 QGIS
 ====
-For QGIS users it is a bit more complicated to visually inspect the product.
+QGIS users need to apply more steps to visually inspect the product.
 
 **GeoTiff/Jpeg2000**
 
@@ -467,7 +465,7 @@ grey scale images, or you can create a raster stack and inspect an RGB image. Fo
    :alt: QGIS open example
    :align: center
 
-   QGIS example: drag & drop files
+   QGIS example: Drag & drop files
 
 .. _qgisFileOpenOne:
 .. figure:: images/QGIS_open1.png
@@ -476,7 +474,7 @@ grey scale images, or you can create a raster stack and inspect an RGB image. Fo
    :alt: QGIS open example
    :align: center
 
-   QGIS example: open with "Add Raster Layer"
+   QGIS example: Open with "Add Raster Layer"
 
 .. _qgisFileOpenTwo:
 .. figure:: images/QGIS_open2.png
@@ -485,7 +483,7 @@ grey scale images, or you can create a raster stack and inspect an RGB image. Fo
    :alt: QGIS open example
    :align: center
 
-   QGIS example: select .jp2/.tiff files
+   QGIS example: Sselect .jp2/.tiff files
 
 .. _qgisFileOpenThree:
 .. figure:: images/QGIS_open3.png
@@ -494,10 +492,10 @@ grey scale images, or you can create a raster stack and inspect an RGB image. Fo
    :alt: QGIS open example
    :align: center
 
-   QGIS example: load files into QGIS
+   QGIS example: Load files into QGIS
 
 
-If you use these two options you will end up with :ref:`single raster bands in QGIS <qgisFileOpenGrey>` which you can inspect es greyscale images.
+If you use these two options, you will end up with :ref:`single raster bands in QGIS <qgisFileOpenGrey>` which you can inspect as greyscale images.
 
 .. _qgisFileOpenGrey:
 .. figure:: images/QGIS_grey.png
@@ -509,13 +507,13 @@ If you use these two options you will end up with :ref:`single raster bands in Q
    QGIS example: single raster files as grey scale images
 
 If you want to create a raster stack from which you can create an RGB view, you first have to stack the single files.
-For this again you have two options. Either you merge the data into a single raster stack or you create a virtual raster called VRT.
+For this again two options exist. Either you merge the data into a single raster stack or you create a GDAL Virtual Raster called VRT.
 
-For the first option you must go to :ref:`"Raster" -> "Miscellaneous" -> "Merge..." <qgisRGBOne>`.
+For the first option, you need to select :ref:`"Raster" -> "Miscellaneous" -> "Merge..." <qgisRGBOne>`.
 Click :ref:`Add files(s) <qgisRGBTwo>` and select the files you like to stack. Then click :ref:`OK <qgisRGBThree>`. Make sure you check the
 :ref:`"Place each input file into a seperate band" <qgisRGBFive>` check-box. Click the [...] button and select
-:ref:`Save to "File..." <qgisRGBFour>` Depending on your preferences you can
-choose between different output formats like GeoTiff. If you choose GeoTiff, it might be a good idea to build image
+:ref:`Save to "File..." <qgisRGBFour>`. Depending on your preferences you can
+choose between different output formats like GeoTiff. If you choose GeoTiff, you might wish to build image
 pyramids for faster display later on.
 
 .. _qgisRGBOne:
@@ -563,8 +561,8 @@ pyramids for faster display later on.
 
    QGIS example: Choose output format
 
-If you decide to create a virtual raster stack (VRT), you must go to :ref:`"Raster" -> "Miscellaneous" -> "Build Virtual Raster..." <qgisRGBSix>`.
-The steps are the same as for "Merge..". again make sure to check "separate".
+If you decide to create a virtual raster stack (VRT), you need to select :ref:`"Raster" -> "Miscellaneous" -> "Build Virtual Raster..." <qgisRGBSix>`.
+The steps are the same as for "Merge..". Again make sure to check "separate".
 The generated product is very small, as it is only a reference to the real data, but it will be slow for the display of bigger images.
 
 .. _qgisRGBSix:
@@ -576,7 +574,7 @@ The generated product is very small, as it is only a reference to the real data,
 
    QGIS example: Select "Build Virtual Raster..." tool
 
-Once one of the two processes is finished the resulting layer stack will be loaded into QGIS.
+Once one of the two processes is finished, the resulting layer stack will be loaded into QGIS.
 Now you can open the :ref:`layer's property window and select the bands you like to view as an RGB <qgisRGBSeven>`.
 For this example we have chosen R/G/B = 4/3/2. Afterwards your selection will be :ref:`displayed in QGIS <qgisRGBEight>`.
 
@@ -587,7 +585,7 @@ For this example we have chosen R/G/B = 4/3/2. Afterwards your selection will be
    :alt: QGIS open example
    :align: center
 
-   QGIS example: Select band combination in properties window.
+   QGIS example: Select band combination in properties window
 
 .. _qgisRGBEight:
 .. figure:: images/QGIS_RGB8.png
@@ -600,12 +598,12 @@ For this example we have chosen R/G/B = 4/3/2. Afterwards your selection will be
 
 **NetCDF**
 
-For NetCDF format there are small differences. Again, you can either use drag & drop or "Add Raster Layer" as described above.
-After you have selected or dropped your NetCDF file a :ref:`new window opens where you can select the raster layer <qgisRGBNine>` of the
+For the NetCDF format, there are small differences. Again, you can either use drag & drop or "Add Raster Layer" as described above.
+After you have selected or dropped your NetCDF file, a :ref:`new window opens where you can select the raster layer <qgisRGBNine>` of the
 NetCDF you like to add. Afterwards you have to :ref:`indicate the CRS <qgisRGBTen>` you are using. All selected raster
 bands will be :ref:`added to QGIS <qgisRGBEleven>`. Now you can proceed the same way as described above. Either you merge
 the data or build a VRT. Either way, the added files will show up in the :ref:`file selection window <qgisRGBTwelve>`.
-Therefore no files have to be added, just simply selected. All remaining
+Therefore, no files have to be added, just simply selected. All remaining
 steps are the same as for GeoTiff/Jpeg2000
 
 .. _qgisRGBNine:
@@ -647,8 +645,8 @@ steps are the same as for GeoTiff/Jpeg2000
 Time Series
 ***********
 
-Besides Raster products the Mosaic Hub provides the functionality of extracting time series of a single pixel or 3x3 pixel windows.
-The result of those extractions can be exported and downloaded. For a full description of this functionality please see :ref:`TimeSeries<time_series>`
+Besides raster products, the Mosaic Hub provides the functionality of extracting time series of a single pixel or 3x3 pixel window.
+The result of those extractions can be exported and downloaded. For a full description of this functionality, please see :ref:`TimeSeries<time_series>`
 
 File Format
 ===========
