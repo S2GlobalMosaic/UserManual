@@ -9,12 +9,11 @@ The S2GM Mosaic Hub utilizes the products as they are provided by the Copernicus
 classification. Deficits (commission and omission errors) in the quality of the scene classification affect the outputs
 of the Mosaic Hub.
 
-
 1 Mio square km direct order limit
 **********************************
-Orders which exceed an area of 1 million square kilometers will be manually reviewed and users might be contacted
-before the orders will be processed.
-
+In case the bounding box of the order area includes more than 1 million m², product size will be very large and processing time may
+be considerable. In this case, we will get in touch with you in order identify the best way of production scheduling and
+product distribution.
 
 Minimum bandwidth of 200 Mbit/s
 *******************************

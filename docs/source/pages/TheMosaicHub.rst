@@ -281,7 +281,7 @@ If everything is correct, click on "**Generate**". The processing starts and aft
 you will be able to download your products in the :ref:`userArea`.
 
 .. note::
-   In case your order will include more than 1 million m², product size will be very large and processing time may
+   In case the bounding box of the order area includes more than 1 million m², product size will be very large and processing time may
    be considerable. In this case, we will get in touch with you in order identify the best way of production scheduling and
    product distribution.
 
