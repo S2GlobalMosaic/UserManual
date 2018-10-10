@@ -4,7 +4,7 @@
 Product Guide
 #############
 
-The content of Mosaic Hub products is variable and dependents on the selection done by the user during the :ref:`order process <order>`.
+The content of Mosaic Hub products is variable and depends on the selection done by the user during the :ref:`order process <order>`.
 The Product Guide describes all available contents.
 
 .. _data:
