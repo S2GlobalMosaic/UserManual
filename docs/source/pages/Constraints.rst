@@ -9,6 +9,13 @@ The S2GM Mosaic Hub utilizes the products as they are provided by the Copernicus
 classification. Deficits (commission and omission errors) in the quality of the scene classification affect the outputs
 of the Mosaic Hub.
 
+**Known Issues**
+
+* Cloud border often visible (especially short periods)
+* Swath boarder artefacts
+* Replaced clouds are visible caused by exchanged surface reflectance values
+* Selection of undetected  or clouds classified as snow
+
 1 Mio square km direct order limit
 **********************************
 In case the bounding box of the order area includes more than 1 million m², product size will be very large and processing time may
