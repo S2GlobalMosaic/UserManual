@@ -1,0 +1,9 @@
+﻿Name ; Valid Range ; Units ; Scaling Factor ; Description
+ Band Name ; N/A  ; unitless  ; N/A  ; name of each band
+ Description ; N/A  ; unitless  ; N/A  ; description of band
+ Spectral_information ; 0  to  16000 ; unitless  ; 1/10000 ; information about wavelength and bandwidth
+ Unit ; N/A  ; m ; N/A  ; A resolution distance shall be expressed as a numerical value associated with a unit of length.
+ No_data_value ; -32768  to  65535 ; unitless  ;1; no data value of resource
+ Scaling_factor ; 0  to  ∞ ; unitless  ;1; number which scales, or multiplies, some quantity.
+ File_path ; N/A  ; unitless  ; N/A  ; file name of resource
+ File_format ; N/A  ; unitless  ; N/A  ; file format of resource

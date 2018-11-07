@@ -1,0 +1,30 @@
+Name ; Valid Range ; Units ; Scaling Factor ; Description
+Title ; N/A  ; unitless  ; N/A  ; This a characteristic, and often unique, name by which the resource is known.
+Summary ; N/A  ; unitless  ; N/A  ; This is a brief narrative summary of the content of the resource.
+Project ; N/A  ; unitless  ; N/A  ; Project name
+Institution ; N/A  ; unitless  ; N/A  ; Project institutions
+References ; N/A  ; unitless  ; N/A  ; webpage of responsible party
+Contact ; N/A  ; unitless  ; N/A  ; This is the description of the organisation responsible for the creation and maintenance of the resource
+License ; N/A  ; unitless  ; N/A  ; Privacy policy and terms of use
+Creator_url ; N/A  ; unitless  ; N/A  ; webpage of responsible party
+Creator_email ; N/A  ; unitless  ; N/A  ; email of responsible party
+Metadata_version ; 0  to ∞; unitless  ; N/A  ; Metadata version number (1.0.1, ...)
+Processing_baseline ; 0  to  ∞ ; unitless  ; N/A  ; Processing version number (0.1.0, ...) also reflected in the filename.
+Processing_name ; N/A  ; unitless  ; N/A  ; A value uniquely identifying the resource including version, baseline, resolution, composite period
+Compositing_period ; N/A  ; unitless  ; N/A  ; Specify time period for which mosaic is valid
+Processing_steps ; N/A  ; unitless  ; N/A  ; Corrections applied to data, e.g., atmospheric, cirrus, terrain, BRDF, and geometric corrections
+Processing_configuration ; N/A  ;  ; N/A  ; Configuration of process
+Resource_locator ; N/A  ; unitless  ; N/A  ; web of product
+Sensor_list ; N/A  ; unitless  ; N/A  ; List of used sensors
+Mosaicking_period_start ; 1 to 366  ; date ; N/A  ; start date of product
+Mosaicking_period_end ; 1 to 366  ; date ; N/A  ; end date of product
+First_product_date ; 1 to 366  ; date ; N/A  ; start date of product in case of more tiles
+Last_product_date ; 1 to 366  ; date ; N/A  ; end date of product in case of more tiles
+Resolution_distance ; 10 to 60 ; m ; N/A  ; A resolution distance shall be expressed as a numerical value associated with a unit of length.
+Date_of_creation ; 1 to 366  ; date ; N/A  ; date of product genertation
+Source_product_list ; S2A | S2B  ; unitless ; N/A  ; Internal list of input filenames used for production.
+Geometry / Image_width ; 0 to 10000 ; unitless  ; N/A  ; size of resource, number of pixel in x-direction
+Geometry / Image_height ; 0 to 10001 ; unitless  ; N/A  ; size of product, number of pixel in y-direction
+Geometry / CRS; N/A  ; unitless  ; N/A  ; coordinate system of resource
+Geometry / Projection_parameters; N/A  ; unitless  ; N/A  ; projection parameters
+Geometry / Boundary; - 180  to  180 ; unitless  ;1; This is the extent of the resource in the geographic space, given as a bounding box. The bounding box shall be expressed with westbound and eastbound longitudes, and southbound and northbound latitudes in decimal degrees, with a precision of at least two decimals.
