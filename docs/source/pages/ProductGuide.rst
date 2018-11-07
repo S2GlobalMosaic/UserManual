@@ -344,6 +344,28 @@ into the following categories:
 The GeoTiff / Jpeg2000 files contain the INSPIRE-compliant XML and a JSON file, while the NetCDF additionally includes
 the same information in the internal metadata.
 
+.. _product_metadata_table:
+.. csv-table:: Product Metadata
+   :file: csv/product_metadata.csv
+   :delim: ;
+   :widths: 16, 16, 16, 16, 36
+   :header-rows: 1
+
+.. _inspire_metadata_table:
+.. csv-table:: INSPIRE Metadata
+   :file: csv/inspire_metadata.csv
+   :delim: ;
+   :widths: 16, 16, 16, 16, 36
+   :header-rows: 1
+
+.. _band_interpretations_table:
+.. csv-table:: Band Interpretations
+   :file: csv/band_interpretations.csv
+   :delim: ;
+   :widths: 16, 16, 16, 16, 36
+   :header-rows: 1
+
+
 .. .. todo::
    Inspire is not yet explained.
 
