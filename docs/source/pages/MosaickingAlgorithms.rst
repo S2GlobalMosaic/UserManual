@@ -19,7 +19,7 @@ see :numref:`processingChainMainSteps`. The three following main modules form th
 
 1.	Quality assurance/ quality check (QA/QC) of the input products
 2.	Composite/Mosaic algorithm
-3.	Quality assurance/ quality check (QA/QC) of the input products
+3.	Quality assurance/ quality check (QA/QC) of the output products
 
 .. _processingChainMainSteps:
 .. figure:: images/ProcessingChainMainSteps.png

@@ -1,0 +1,558 @@
+{
+  "Title" : "Copernicus Sentinel-2 Mosaic",
+  "Summary" : "This is a Sentinel-2 Global Mosaic generated for the Copernicus Land Monitoring Service from Sentinel-2 Level 2A products as provided by the Copernicus programme of the Euopean Commission in partnership with the European Space Agency. Sentinel-2 Mosaics consist of most representative observations in a user-defined area and for a given compositing period - Best-available-pixel (BAP) composites",
+  "Project" : "Copernicus Sentinel-2 Global Mosaic",
+  "Institution" : "Copernicus Sentinel-2 Global Mosaic Service",
+  "References" : "https://s2gm.eu",
+  "Contact" : "https://s2gm.eu",
+  "License" : "https://s2gm.eu/terms-of-use",
+  "Creator_url" : "https://s2gm.eu",
+  "Creator_email" : "info@s2gm.eu",
+  "Metadata_version" : "1.0.1",
+  "Processing_baseline" : "0.1.0",
+  "Processing_name" : "S2GM_M10_20180501_20180531_all_geotiff_NIreland_STD_v0.1.0_10213",
+  "Compositing_period" : "Monthly",
+  "Processing_steps" : "Sen2Cor, S2GM_v0.1.0",
+  "Processing_configuration" : "STD",
+  "Resource_locator" : "https://s2gm.eu",
+  "Sensor_list" : "S2A, S2B",
+  "Mosaicking_period_start" : "2018-05-01",
+  "Mosaicking_period_end" : "2018-05-31",
+  "First_product_date" : "2018-05-01",
+  "Last_product_date" : "2018-05-31",
+  "Resolution_distance" : 10,
+  "Date_of_creation" : "2018-10-29T11:09:21",
+  "Geometry" : {
+    "Image_width" : 4219,
+    "Image_height" : 4890,
+    "CRS" : "EPSG:32629",
+    "Projection_parameter" : "PARAM_MT[\"Affine\", PARAMETER[\"num_row\", 3], PARAMETER[\"num_col\", 3], PARAMETER[\"elt_0_0\", 10], PARAMETER[\"elt_0_2\", 648250], PARAMETER[\"elt_1_1\", -10], PARAMETER[\"elt_1_2\", 6082200]]\"",
+    "Boundary" : [ [ 648250.0, 6033300.0 ], [ 648250.0, 6082200.0 ], [ 690440.0, 6082200.0 ], [ 690440.0, 6033300.0 ], [ 648250.0, 6033300.0 ], [ 648250.0, 6033300.0 ] ]
+  },
+  "Band_interpretations" : [ {
+    "Name" : "B02",
+    "Description" : "The surface reflectance in band B02",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 490.0,
+        "Bandwidth" : 65.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 496.6,
+        "Bandwidth" : 98.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 492.1,
+        "Bandwidth" : 98.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B02_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B03",
+    "Description" : "The surface reflectance in band B03",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 560.0,
+        "Bandwidth" : 35.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 560.0,
+        "Bandwidth" : 45.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 559.0,
+        "Bandwidth" : 46.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B03_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B04",
+    "Description" : "The surface reflectance in band B04",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 665.0,
+        "Bandwidth" : 30.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 664.5,
+        "Bandwidth" : 38.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 665.0,
+        "Bandwidth" : 39.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B04_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B08",
+    "Description" : "The surface reflectance in band B08",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 842.0,
+        "Bandwidth" : 115.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 835.1,
+        "Bandwidth" : 145.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 833.0,
+        "Bandwidth" : 133.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B08_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B01",
+    "Description" : "The surface reflectance in band B01",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 443.0,
+        "Bandwidth" : 20.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 443.9,
+        "Bandwidth" : 27.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 442.3,
+        "Bandwidth" : 45.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B01_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B05",
+    "Description" : "The surface reflectance in band B05",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 705.0,
+        "Bandwidth" : 15.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 664.5,
+        "Bandwidth" : 38.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 665.0,
+        "Bandwidth" : 39.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B05_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B8A",
+    "Description" : "The surface reflectance in band B8A",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 865.0,
+        "Bandwidth" : 20.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 864.8,
+        "Bandwidth" : 33.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 864.0,
+        "Bandwidth" : 32.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B8A_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B06",
+    "Description" : "The surface reflectance in band B06",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 740.0,
+        "Bandwidth" : 15.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 740.2,
+        "Bandwidth" : 18.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 739.1,
+        "Bandwidth" : 18.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B06_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B11",
+    "Description" : "The surface reflectance in band B11",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 1610.0,
+        "Bandwidth" : 90.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 1613.7,
+        "Bandwidth" : 143.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 1610.4,
+        "Bandwidth" : 141.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B11_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B12",
+    "Description" : "The surface reflectance in band B12",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 2190.0,
+        "Bandwidth" : 180.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 2202.4,
+        "Bandwidth" : 242.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 2185.7,
+        "Bandwidth" : 238.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B12_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "B07",
+    "Description" : "The surface reflectance in band B07",
+    "Spectral_information" : {
+      "S2_nominal" : {
+        "Central_wavelength" : 783.0,
+        "Bandwidth" : 20.0
+      },
+      "S2A" : {
+        "Central_wavelength" : 782.5,
+        "Bandwidth" : 28.0
+      },
+      "S2B" : {
+        "Central_wavelength" : 779.7,
+        "Bandwidth" : 28.0
+      }
+    },
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "B07_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "quality_aot",
+    "Description" : "Aerosol optical thickness",
+    "Unit" : "1",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 0.001,
+    "File_path" : "quality_aot_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "quality_snow_confidence",
+    "Description" : "Snow confidence",
+    "Unit" : "percent",
+    "No_data_value" : 255,
+    "File_path" : "quality_snow_confidence_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "quality_scene_classification",
+    "Description" : "Scene classification",
+    "No_data_value" : 255,
+    "File_path" : "quality_scene_classification_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "quality_cloud_confidence",
+    "Description" : "Cloud confidence",
+    "Unit" : "percent",
+    "No_data_value" : 255,
+    "File_path" : "quality_cloud_confidence_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "source_index",
+    "Description" : "Index of product used for this pixel",
+    "No_data_value" : -1,
+    "File_path" : "source_index_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "medoid_mos",
+    "Description" : "Measure of spread of the medoid algorithm",
+    "No_data_value" : 65535,
+    "Scaling_factor" : 1.0E-4,
+    "File_path" : "medoid_mos_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "sun_zenith",
+    "Description" : "Solar zenith angle",
+    "Unit" : "Degree",
+    "No_data_value" : -32768,
+    "Scaling_factor" : 0.01,
+    "File_path" : "sun_zenith_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "sun_azimuth",
+    "Description" : "Solar azimuth angle",
+    "Unit" : "Degree",
+    "No_data_value" : -32768,
+    "Scaling_factor" : 0.01,
+    "File_path" : "sun_azimuth_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "view_zenith_mean",
+    "Description" : "View zenith mean angle",
+    "Unit" : "Degree",
+    "No_data_value" : -32768,
+    "Scaling_factor" : 0.01,
+    "File_path" : "view_zenith_mean_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "view_azimuth_mean",
+    "Description" : "View azimuth mean angle",
+    "Unit" : "Degree",
+    "No_data_value" : -32768,
+    "Scaling_factor" : 0.01,
+    "File_path" : "view_azimuth_mean_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  }, {
+    "Name" : "valid_obs",
+    "Description" : "Number of valid observations",
+    "No_data_value" : 255,
+    "File_path" : "valid_obs_M10_20180501_all_geotiff_NIreland.tiff",
+    "File_format" : "GeoTiff"
+  } ],
+  "Source_product_list" : {
+    "0" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UPB_N02.07",
+    "1" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UPA_N02.07",
+    "2" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UNA_N02.07",
+    "3" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UNB_N02.07",
+    "4" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UNV_N02.07",
+    "5" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UPV_N02.07",
+    "6" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T30UUF_N02.07",
+    "7" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T30UUE_N02.07",
+    "8" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T29UQV_N02.07",
+    "9" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T30UUG_N02.07",
+    "10" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T30UVF_N02.07",
+    "11" : "S2B_OPER_MSI_L2A_TL_SGS__20180501T152629_A006012_T30UVG_N02.07",
+    "12" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T29UPV_N02.07",
+    "13" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T29UPA_N02.07",
+    "14" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UUE_N02.07",
+    "15" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UUF_N02.07",
+    "16" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T29UQV_N02.07",
+    "17" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T29UPB_N02.07",
+    "18" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UUG_N02.07",
+    "19" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UVE_N02.07",
+    "20" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UVF_N02.07",
+    "21" : "S2A_OPER_MSI_L2A_TL_SGS__20180503T151930_A014949_T30UVG_N02.07",
+    "22" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UNB_N02.07",
+    "23" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UNA_N02.07",
+    "24" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UPB_N02.07",
+    "25" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UPA_N02.07",
+    "26" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UNV_N02.07",
+    "27" : "S2B_OPER_MSI_L2A_TL_EPAE_20180504T125508_A006055_T29UPV_N02.07",
+    "28" : "S2B_OPER_MSI_L2A_TL_SGS__20180505T135659_A006069_T30UVE_N02.07",
+    "29" : "S2B_OPER_MSI_L2A_TL_SGS__20180505T135659_A006069_T30UVF_N02.07",
+    "30" : "S2B_OPER_MSI_L2A_TL_SGS__20180505T135659_A006069_T29UQV_N02.07",
+    "31" : "S2B_OPER_MSI_L2A_TL_SGS__20180505T135659_A006069_T30UUE_N02.07",
+    "32" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UPA_N02.07",
+    "33" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UNA_N02.07",
+    "34" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UPB_N02.07",
+    "35" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UNB_N02.07",
+    "36" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UNV_N02.07",
+    "37" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UPV_N02.07",
+    "38" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T30UUF_N02.07",
+    "39" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T30UUE_N02.07",
+    "40" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T29UQV_N02.07",
+    "41" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T30UUG_N02.07",
+    "42" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T30UVF_N02.07",
+    "43" : "S2A_OPER_MSI_L2A_TL_MPS__20180506T120844_A014992_T30UVG_N02.07",
+    "44" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T29UPV_N02.07",
+    "45" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T29UPA_N02.07",
+    "46" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UUF_N02.07",
+    "47" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UUE_N02.07",
+    "48" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T29UQV_N02.07",
+    "49" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T29UPB_N02.07",
+    "50" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UUG_N02.07",
+    "51" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UVE_N02.07",
+    "52" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UVF_N02.07",
+    "53" : "S2B_OPER_MSI_L2A_TL_SGS__20180508T171644_A006112_T30UVG_N02.07",
+    "54" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UNA_N02.07",
+    "55" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UNB_N02.07",
+    "56" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UPB_N02.07",
+    "57" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UPA_N02.07",
+    "58" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UNV_N02.07",
+    "59" : "S2A_OPER_MSI_L2A_TL_SGS__20180509T171240_A015035_T29UPV_N02.07",
+    "60" : "S2A_OPER_MSI_L2A_TL_MPS__20180510T133456_A015049_T30UVE_N02.07",
+    "61" : "S2A_OPER_MSI_L2A_TL_MPS__20180510T133456_A015049_T30UVF_N02.07",
+    "62" : "S2A_OPER_MSI_L2A_TL_MPS__20180510T133456_A015049_T29UQV_N02.07",
+    "63" : "S2A_OPER_MSI_L2A_TL_MPS__20180510T133456_A015049_T30UUE_N02.07",
+    "64" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UPA_N02.07",
+    "65" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UNA_N02.07",
+    "66" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UPB_N02.07",
+    "67" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UNB_N02.07",
+    "68" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UNV_N02.07",
+    "69" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UPV_N02.07",
+    "70" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T30UUF_N02.07",
+    "71" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T30UUE_N02.07",
+    "72" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T29UQV_N02.07",
+    "73" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T30UUG_N02.07",
+    "74" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T30UVF_N02.07",
+    "75" : "S2B_OPER_MSI_L2A_TL_SGS__20180511T151544_A006155_T30UVG_N02.07",
+    "76" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T29UPV_N02.07",
+    "77" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T29UPA_N02.07",
+    "78" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UUE_N02.07",
+    "79" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UUF_N02.07",
+    "80" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T29UQV_N02.07",
+    "81" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T29UPB_N02.07",
+    "82" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UUG_N02.07",
+    "83" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UVE_N02.07",
+    "84" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UVF_N02.07",
+    "85" : "S2A_OPER_MSI_L2A_TL_MPS__20180513T133943_A015092_T30UVG_N02.07",
+    "86" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UNA_N02.07",
+    "87" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UNB_N02.07",
+    "88" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UPB_N02.07",
+    "89" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UPA_N02.07",
+    "90" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UNV_N02.07",
+    "91" : "S2B_OPER_MSI_L2A_TL_SGS__20180514T152742_A006198_T29UPV_N02.07",
+    "92" : "S2B_OPER_MSI_L2A_TL_SGS__20180515T135621_A006212_T30UVE_N02.07",
+    "93" : "S2B_OPER_MSI_L2A_TL_SGS__20180515T135621_A006212_T30UVF_N02.07",
+    "94" : "S2B_OPER_MSI_L2A_TL_SGS__20180515T135621_A006212_T29UQV_N02.07",
+    "95" : "S2B_OPER_MSI_L2A_TL_SGS__20180515T135621_A006212_T30UUE_N02.07",
+    "96" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UPA_N02.07",
+    "97" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UNA_N02.07",
+    "98" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UPB_N02.07",
+    "99" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UNB_N02.07",
+    "100" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UPV_N02.07",
+    "101" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UNV_N02.07",
+    "102" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T30UUF_N02.07",
+    "103" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T30UUE_N02.07",
+    "104" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T29UQV_N02.07",
+    "105" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T30UUG_N02.07",
+    "106" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T30UVF_N02.07",
+    "107" : "S2A_OPER_MSI_L2A_TL_MPS__20180516T120702_A015135_T30UVG_N02.07",
+    "108" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T29UPV_N02.07",
+    "109" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T29UPA_N02.07",
+    "110" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UUE_N02.07",
+    "111" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UUF_N02.07",
+    "112" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T29UQV_N02.07",
+    "113" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T29UPB_N02.07",
+    "114" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UUG_N02.07",
+    "115" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UVE_N02.07",
+    "116" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UVF_N02.07",
+    "117" : "S2B_OPER_MSI_L2A_TL_SGS__20180518T133554_A006255_T30UVG_N02.07",
+    "118" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T135201_A015178_T29UNB_N02.07",
+    "119" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T135201_A015178_T29UPB_N02.07",
+    "120" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T135201_A015178_T29UNA_N02.07",
+    "121" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T135201_A015178_T29UPA_N02.07",
+    "122" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T154451_A015178_T29UNA_N02.07",
+    "123" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T154451_A015178_T29UPA_N02.07",
+    "124" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T154451_A015178_T29UNV_N02.07",
+    "125" : "S2A_OPER_MSI_L2A_TL_SGS__20180519T154451_A015178_T29UPV_N02.07",
+    "126" : "S2A_OPER_MSI_L2A_TL_SGS__20180520T132551_A015192_T30UVE_N02.07",
+    "127" : "S2A_OPER_MSI_L2A_TL_SGS__20180520T132551_A015192_T30UVF_N02.07",
+    "128" : "S2A_OPER_MSI_L2A_TL_SGS__20180520T132551_A015192_T29UQV_N02.07",
+    "129" : "S2A_OPER_MSI_L2A_TL_SGS__20180520T132551_A015192_T30UUE_N02.07",
+    "130" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UNA_N02.07",
+    "131" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UPA_N02.07",
+    "132" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UPB_N02.07",
+    "133" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UNB_N02.07",
+    "134" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UPV_N02.07",
+    "135" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UNV_N02.07",
+    "136" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T30UUF_N02.07",
+    "137" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T30UUE_N02.07",
+    "138" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T29UQV_N02.07",
+    "139" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T30UUG_N02.07",
+    "140" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T30UVF_N02.07",
+    "141" : "S2B_OPER_MSI_L2A_TL_SGS__20180521T134522_A006298_T30UVG_N02.07",
+    "142" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T29UPV_N02.08",
+    "143" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T29UPA_N02.08",
+    "144" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UUF_N02.08",
+    "145" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UUE_N02.08",
+    "146" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T29UQV_N02.08",
+    "147" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T29UPB_N02.08",
+    "148" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UUG_N02.08",
+    "149" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UVE_N02.08",
+    "150" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UVF_N02.08",
+    "151" : "S2A_OPER_MSI_L2A_TL_SGS__20180523T181029_A015235_T30UVG_N02.08",
+    "152" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UNB_N02.08",
+    "153" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UNA_N02.08",
+    "154" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UPB_N02.08",
+    "155" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UPA_N02.08",
+    "156" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UNV_N02.08",
+    "157" : "S2B_OPER_MSI_L2A_TL_SGS__20180524T180956_A006341_T29UPV_N02.08",
+    "158" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UPA_N02.08",
+    "159" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UNA_N02.08",
+    "160" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UPB_N02.08",
+    "161" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UNB_N02.08",
+    "162" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UNV_N02.08",
+    "163" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UPV_N02.08",
+    "164" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T30UUF_N02.08",
+    "165" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T30UUE_N02.08",
+    "166" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T29UQV_N02.08",
+    "167" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T30UUG_N02.08",
+    "168" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T30UVF_N02.08",
+    "169" : "S2A_OPER_MSI_L2A_TL_SGS__20180526T173701_A015278_T30UVG_N02.08",
+    "170" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T29UPV_N02.08",
+    "171" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T29UPA_N02.08",
+    "172" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UUF_N02.08",
+    "173" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UUE_N02.08",
+    "174" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T29UQV_N02.08",
+    "175" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T29UPB_N02.08",
+    "176" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UUG_N02.08",
+    "177" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UVF_N02.08",
+    "178" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UVE_N02.08",
+    "179" : "S2B_OPER_MSI_L2A_TL_MTI__20180528T125036_A006398_T30UVG_N02.08",
+    "180" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UNB_N02.08",
+    "181" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UNA_N02.08",
+    "182" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UPB_N02.08",
+    "183" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UPA_N02.08",
+    "184" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UNV_N02.08",
+    "185" : "S2A_OPER_MSI_L2A_TL_MPS__20180529T125059_A015321_T29UPV_N02.08",
+    "186" : "S2A_OPER_MSI_L2A_TL_SGS__20180530T142938_A015335_T30UVE_N02.08",
+    "187" : "S2A_OPER_MSI_L2A_TL_SGS__20180530T142938_A015335_T30UVF_N02.08",
+    "188" : "S2A_OPER_MSI_L2A_TL_SGS__20180530T142938_A015335_T29UQV_N02.08",
+    "189" : "S2A_OPER_MSI_L2A_TL_SGS__20180530T142938_A015335_T30UUE_N02.08",
+    "190" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UNA_N02.08",
+    "191" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UPB_N02.08",
+    "192" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UPA_N02.08",
+    "193" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UNB_N02.08",
+    "194" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UNV_N02.08",
+    "195" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UPV_N02.08",
+    "196" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T30UUF_N02.08",
+    "197" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T30UUE_N02.08",
+    "198" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T29UQV_N02.08",
+    "199" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T30UUG_N02.08",
+    "200" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T30UVF_N02.08",
+    "201" : "S2B_OPER_MSI_L2A_TL_SGS__20180531T141540_A006441_T30UVG_N02.08"
+  }
+}
