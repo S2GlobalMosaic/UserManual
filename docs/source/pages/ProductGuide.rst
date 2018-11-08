@@ -341,10 +341,11 @@ into the following categories:
   details (scaling and offset parameters, units, etc.) on the way the data is organised in the file, which can then be
   interpreted by the software reading the data. (included in the JSON file).
 
-:download:`Download example JSON file <download/metadata_M10_20180501_all_geotiff_NIreland.json>`
 
 The GeoTiff / Jpeg2000 files contain the INSPIRE-compliant XML and a JSON file, while the NetCDF additionally includes
 the same information in the internal metadata.
+
+:download:`Download example JSON file <download/metadata_M10_20180501_all_geotiff_NIreland.json>`
 
 The following tables describe the metadata used in the JSON file:
 
