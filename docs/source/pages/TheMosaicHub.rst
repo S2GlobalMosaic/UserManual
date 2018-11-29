@@ -82,23 +82,23 @@ The menu of the App on the top will bring up the following functionality after c
 .. .. todo::
    Replace TBD with content. Discuss with Sinergise what shall be behind the links.
 
-+------------------+------------------------------------------------------------------+
-| Menu Button      |  Functionality                                                   |
-+==================+==================================================================+
-| Home             | `S2GM Project Homepage <https://s2gm.sentinel-hub.com/node/5>`_  |
-+------------------+------------------------------------------------------------------+
-| Mosaic Hub       | Configuration of Mosaics                                         |
-+------------------+------------------------------------------------------------------+
-| Time Series      | Configuration of Time Series                                     |
-+------------------+------------------------------------------------------------------+
-| User Area        | Status of Orders                                                 |
-+------------------+------------------------------------------------------------------+
-| Mosaic Downloader| Configuration and Execution of Downloads                         |
-+------------------+------------------------------------------------------------------+
-| User Manual      | This document                                                    |
-+------------------+------------------------------------------------------------------+
-| About S2GM       | `S2GM Project About Page <https://s2gm.sentinel-hub.com/about>`_ |
-+------------------+------------------------------------------------------------------+
++--------------------------+-----------------------------------------------------------------------------------------+
+| Menu Button              |  Functionality                                                                          |
++==========================+=========================================================================================+
+| Home                     | `S2GM Project Homepage <https://s2gm.sentinel-hub.com/node/5>`_                         |
++--------------------------+-----------------------------------------------------------------------------------------+
+| Mosaic Hub               | `Configuration of Mosaics <https://apps.sentinel-hub.com/mosaic-hub/#/>`_               |
++--------------------------+-----------------------------------------------------------------------------------------+
+| Time Series              | `Configuration of Time Series <https://apps.sentinel-hub.com/mosaic-hub/#/timeseries>`_ |
++--------------------------+-----------------------------------------------------------------------------------------+
+| User Area                | `Status of Orders <https://apps.sentinel-hub.com/mosaic-hub/#/userArea>`_               |
++--------------------------+-----------------------------------------------------------------------------------------+
+| Mosaic Downloader        | Configuration and Execution of Downloads                                                |
++--------------------------+-----------------------------------------------------------------------------------------+
+| User Manual              | `This document <https://usermanual.readthedocs.io/en/latest/>`_                         |
++--------------------------+-----------------------------------------------------------------------------------------+
+| About S2GM               | `S2GM Project About Page <https://s2gm.sentinel-hub.com/about>`_                        |
++--------------------------+-----------------------------------------------------------------------------------------+
 
 
 The App Window is split with the dynamic map on the right and the temporal and spatial
