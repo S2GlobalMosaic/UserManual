@@ -12,12 +12,12 @@ A registration is required before requesting and downloading mosaics.
 
 Registration
 ************
-For the registration process, guide your browser to the `Subscription Page <https://services.sentinel-hub.com/oauth/subscription>`_.
+For the registration process, guide your browser to the `Subscription Page <https://apps.sentinel-hub.com/mosaic-hub/>`_.
 After you have filled out the form (see :numref:`mosaicHubRegistration`), you will receive an e-mail to confirm your
 mail address. Click on the verification button and you will receive the confirmation that your account has been created.
 
 .. _mosaicHubRegistration:
-.. figure:: images/MosaicHubRegistration.png
+.. figure:: images/MosaicHubRegistration2.png
    :name: mosaicHubRegistrationName
    :scale: 50%
    :alt: Mosaic Hub Registration
@@ -36,7 +36,7 @@ The ordering of :ref:`time_series` is described below.
 Mosaic Hub
 ==========
 
-The Mosaic Hub is located `here <https://webdev.sentinel-hub.com/mosaic-hub/#/>`_.
+The Mosaic Hub is located `here <https://apps.sentinel-hub.com/mosaic-hub/>`_.
 
 However, in order to download the processed products, you will have to install the "Mosaic Downloader" App.
 In fact, this App has the same functionality like the browser instance. In order to avoid switching between browser and
