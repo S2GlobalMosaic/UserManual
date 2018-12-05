@@ -400,6 +400,8 @@ In SNAP you can simply select the .json file in the open file dialogue box or dr
 the .json file on the "Product Explorer" window. There is no difference if the product is
 delivered in GeoTiff, Jpeg2000 or NetCDF format.
 
+A precondition for working with the mosaics is to install the S2GM SNAP reader plugin as described :ref:`here <install_plugin>`.
+
 .. .. todo::
    We should also explain how one can install the reader plugin necessary for the GeoTIFF and JP2 formats.
 
@@ -472,7 +474,73 @@ The selected RGB combination will be shown in a :ref:`new window <snapRGB>`.
 
    SNAP example: RGB of bands 4/3/2
 
+.. _install_plugin:
 
+Install the S2GM SNAP reader plugin
+-----------------------------------
+1. Start SNAP Desktop.
+Open the Plugin Manager. From the menu select Tools --> Plugins:
+
+.. figure:: images/InstallPlugin1.png
+   :name: InstallPlugin1
+   :scale: 50%
+   :alt: Open the Plugin Manager
+   :align: center
+
+   Open the Plugin Manager in SNAP
+
+2. In the "Available Plugins" tab of the Plugin Manager, select the S2GM SNAP Plugins by ticking the "Install" check box.
+Click on the **Install** button in order to start the installation process.
+
+.. figure:: images/InstallPlugin2.png
+   :name: InstallPlugin2
+   :scale: 50%
+   :alt: Select the S2GM Plugin to install
+   :align: center
+
+   Select the S2GM Plugin to install
+
+3. Confirm the installation. Click on **Next**.
+
+.. figure:: images/InstallPlugin3.png
+   :name: InstallPlugin3
+   :scale: 50%
+   :alt: Confirm Installation
+   :align: center
+
+   Confirm Installation
+
+4. It might be necessary to accept the license agreement.
+Click on **Install**. The download and the installation starts.
+
+.. figure:: images/InstallPlugin4.png
+   :name: InstallPlugin4
+   :scale: 50%
+   :alt: Accept License Agreement
+   :align: center
+
+   Accept License Agreement
+
+5. Because the S2GM SNAP plugin has unsigned code (TBC), you have to confirm the installation again by clicking on **Continue**:
+
+.. figure:: images/InstallPlugin5.png
+   :name: InstallPlugin5
+   :scale: 50%
+   :alt: Trust unsigned plugin
+   :align: center
+
+   Trust unsigned plugin
+
+
+6. In order to finalise the installation, SNAP Desktop needs to be restarted. Choose if you want to restart now or later and click **Finish**.
+
+.. figure:: images/InstallPlugin6.png
+   :name: InstallPlugin6
+   :scale: 50%
+   :alt: Complete installation dialog
+   :align: center
+
+   Complete installation dialog
 
 QGIS
 ====
