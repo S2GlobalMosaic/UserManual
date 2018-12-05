@@ -8,6 +8,9 @@ Introduction
    Page would benefit from some images.
 
 
+.. |logo| image:: images/SouthernFranceY2017_60m.png
+
+|logo|
 
 The Sentinel-2 Global Mosaic service offers mosaic surface reflectance products derived from the Sentinel-2 A and B platforms.
 Input to the processing are the Level 2A (L2A) products provided by the Copernicus Ground Segment, i.e. ESA Sentinel-2 core products.
@@ -19,7 +22,7 @@ the powerful user interface to the service, and the analysis-ready products, whi
 This manual enables new users of the Sentinel-2 Global Mosaic to fully exploit the capabilities of the service.
 It contains a guide on the usage of :ref:`mosaic_hub`, an overview of the :ref:`mosaic_algos` used to generate mosaics, and a :ref:`prod_guide`,
 which elaborates on content, format, and usage of the mosaics. In addition to this user manual, expert users are referred to the
-Algorithm Theoretical Baseline Document (ATBD), available :download:`here <download/S2GM-SC2-ATBD-BC-v1.1.pdf>`.
+`Algorithm Theoretical Baseline Document (ATBD) <download/S2GM-SC2-ATBD-BC-v1.1.pdf>`_.
 
 For any questions that remain unanswered by this document or any other issues S2GM users are kindly
 referred to the `User Support <https://s2gm.sentinel-hub.com/node/6>`_. We are keen to learn more about your experiences to
