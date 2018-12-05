@@ -521,7 +521,7 @@ Click on **Install**. The download and the installation starts.
 
    Accept License Agreement
 
-5. Because the S2GM SNAP plugin has unsigned code (TBC), you have to confirm the installation again by clicking on **Continue**:
+5. Because the S2GM SNAP plugin has unsigned code, you have to confirm the installation again by clicking on **Continue**:
 
 .. figure:: images/InstallPlugin5.png
    :name: InstallPlugin5
