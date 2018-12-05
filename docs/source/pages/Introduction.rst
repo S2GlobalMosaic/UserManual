@@ -19,10 +19,8 @@ the powerful user interface to the service, and the analysis-ready products, whi
 This manual enables new users of the Sentinel-2 Global Mosaic to fully exploit the capabilities of the service.
 It contains a guide on the usage of :ref:`mosaic_hub`, an overview of the :ref:`mosaic_algos` used to generate mosaics, and a :ref:`prod_guide`,
 which elaborates on content, format, and usage of the mosaics. In addition to this user manual, expert users are referred to the
-Algorithm Theoretical Baseline Document (`ATBD <https://s2gm.sentinel-hub.com/sites/default/files/styles/medium/public/S2GM-SC2-ATBD-BC-v1.1.pdf>`_) available on the `S2GM website <https://s2gm.sentinel-hub.com/node/3>`_.
+Algorithm Theoretical Baseline Document (ATBD), available :download:`here <download/S2GM-SC2-ATBD-BC-v1.1.pdf>`.
 
 For any questions that remain unanswered by this document or any other issues S2GM users are kindly
 referred to the `User Support <https://s2gm.sentinel-hub.com/node/6>`_. We are keen to learn more about your experiences to
 further improve the Sentinel-2 Global Mosaic service!
-
-
