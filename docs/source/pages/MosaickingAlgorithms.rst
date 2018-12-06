@@ -5,10 +5,10 @@ Mosaicking Algorithms
 #####################
 
 Input to the mosaicking process are surface reflectance values, from the so-called Level 2A (L2A) product. This product is operationally produced by the Copernicus (ESA) ground segment.
-Currently, ESA is using the Sen2Cor atmospheric correction processor for the generation of L2A products.
+Currently, ESA is using the Sen2Cor atmospheric correction processor [SEN2COR]_ for the generation of L2A products.
 
 .. .. todo::
-   We should link to Sen2Cor : http://step.esa.int/main/third-party-plugins-2/sen2cor/
+   We should link to Sen2Cor : http://step.esa.int/main/third-party-plugins-2/sen2cor/   -> Done
 
 The L2A product contains directional surface reflectances in 10 spectral bands (i.e. not BRDF corrected),
 a scene classification layer (SCL) providing information on cloudiness, snow and other pixel classification information,
@@ -79,9 +79,9 @@ A threshold related to the number of valid observations is defined and applied i
 Input Data - Sentinel-2 L2A processed with Sen2Cor
 **************************************************
 The Sentinel-2 L2A products produced with Sen2Cor and delivered by ESA via the two Copernicus hubs serve as input for the mosaic service.
-The Sen2Cor processor [#f1]_,
+The Sen2Cor processor [SEN2CORDOC]_,
 which generates the L2A products has been analysed in the Atmospheric Correction Inter-Comparison Exercise (ACIX) and was found to provide reasonable results regarding the aerosol optical depth, water vapour and surface reflectance values.
-The scene classification was not part of the assessment in the ACIX exercise [Doxani et al., 2018 [#f2]_].
+The scene classification was not part of the assessment in the ACIX exercise [Doxani et al., 2018 [RS201810352]_].
 The processing methodology for the mosaicking algorithm relies on the quality of the input data in terms of surface reflectance values,
 on the absence of artefacts and on a correct pixel classification, in particular for clouds and cloud shadows.
 Despite the high accuracy and quality of the L2A images reported in the Sen2cor documentation,
@@ -107,13 +107,13 @@ The pre-processing of the input spectra has been applied to perform the mosaicki
 
 Temporal Resampling
 ===================
-Image compositing aims at identifying the best suited observation in a given period of time on the basis of pre-defined criteria at the pixel- or image-level [#f3]_.
+Image compositing aims at identifying the best suited observation in a given period of time on the basis of pre-defined criteria at the pixel- or image-level [RSOE190]_.
 
 .. _stc:
 
 Short Term Composite - STC – adaption of the WELD algorithm regarding Sentinel-2
 --------------------------------------------------------------------------------
-The STC approach has been motivated by the Web-enabled Landsat Data –WELD method [#f4]_ method and is, like WELD,
+The STC approach has been motivated by the Web-enabled Landsat Data –WELD method [WELDATBD]_ method and is, like WELD,
 based on a decision tree regarding the surface reflectance values, the scene classification, and the different indices.
 The compositing approach has been designed to preferentially select valid land surface observations with minimum cloud,
 snow, and atmospheric contamination. Therefore, the composited mosaics are not for studies of cloud, snow or the atmosphere.
@@ -121,8 +121,8 @@ Compared to WELD, the STC has to work without the thermal bands available on Lan
 as well as the Scene Classification available in the Sentinel-2 L2A product.
 STC is part of the S2GM processing chain. The ATBD provides a detailed description of this algorithm.
 
-Medoid Composite [#f5]_
------------------------
+Medoid Composite [RS512]_
+-------------------------
 The Medoid composite is part of the combined mosaicking algorithm to produce the composites in the S2GM service.
 The approach determines the medoid of a set of observations which can be considered as a representative value in a period.
 The algorithm is described in detail in the ATBD.
@@ -162,10 +162,3 @@ because of the different selected observation time in the spatial grid.
 .. .. todo::
     change footnotes to bibliography and move to references. example: https://build-me-the-docs-please.readthedocs.io/en/latest/Using_Sphinx/UsingBibTeXCitationsInSphinx.html
 
-.. rubric:: Footnotes
-
-.. [#f1] ESA 2018: `sen2cor Configuration And User Manual <http://step.esa.int/thirdparties/sen2cor/2.5.5/docs/S2-PDGS-MPC-L2A-SUM-V2.5.5_V2.pdf>`_
-.. [#f2] Doxani et al., 2018: Doxani, G.; Vermote, E.; Roger, J.-C.; Gascon, F.; Adriaensen, S.; Frantz, D.; Hagolle, O.; Hollstein, A.; Kirches, G.; Li, F.; Louis, J.; Mangin, A.; Pahlevan, N.; Pflug, B.; Vanhellemont, Q. Atmospheric Correction Inter-Comparison Exercise. Remote Sens. 2018, 10, 352.
-.. [#f3] Frantz et al., 2017: Frantz, D., et al. (2017). "Phenology-Adaptive Pixel-Based Compositing Using Optical Earth Observation Imagery." Remote Sensing Of Environment 190: 331-347
-.. [#f4] Roy et al., 2011: Roy, D. P., Ju, J., Kommareddy, I., Hansen, M., Vermote, E., Zhang, C., Kommareddy, A. (2011). Web-Enabled Landsat Data (WELD) Products – Algorithm Theoretical Basis Document, February 2011, 63 PP
-.. [#f5] Flood 2013: Flood, N. (2013). Seasonal Composite Landsat TM/ETM+ Images Using The Medoid (A Multi-Dimensional Median). `Remote Sensing, 5(12), 6481–6500. <http://doi.org/10.3390/rs5126481>`_
