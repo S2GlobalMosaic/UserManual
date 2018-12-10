@@ -4,9 +4,6 @@
 Introduction
 ############
 
-.. .. todo::
-   Page would benefit from some images.
-
 
 .. image:: images/SouthernFranceY2017_60m.png
    :width: 75%
