@@ -8,9 +8,9 @@ Introduction
    Page would benefit from some images.
 
 
-.. |logo| image:: images/SouthernFranceY2017_60m.png
-
-|logo|
+.. image:: images/SouthernFranceY2017_60m.png
+   :width: 75%
+   :align: right
 
 The Sentinel-2 Global Mosaic service offers mosaic surface reflectance products derived from the Sentinel-2 A and B platforms.
 Input to the processing are the Level 2A (L2A) products provided by the Copernicus Ground Segment, i.e. ESA Sentinel-2 core products.
