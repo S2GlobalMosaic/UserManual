@@ -120,7 +120,7 @@ Area Selection
 As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options exist to define the area for which the mosaic product will be generated (Note: Your product might be split into several tiles if it spans a large area - see also the warning displayed on :numref:`orderPanelOrder`):
 
 * Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`)
-* Uploading a kml or kmz shape file; the upload button is located on the second tab in the area selection menu of the configuration menu
+* Uploading a Google KML/KMZ file or an ESRI shapefile (coordinates must be in WGS84); the upload button is located on the second tab in the area selection menu of the configuration menu
 * Selection of a pre-defined area, i.e. a country or a continent, in the dropdown menus of the configuration menu
 * Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon
 
