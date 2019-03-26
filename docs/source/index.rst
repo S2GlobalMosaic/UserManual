@@ -22,6 +22,7 @@ Table of Contents
     pages/Constraints
     pages/Glossary
     pages/References
+..    playarea/play
 
 Indices and tables
 ******************
