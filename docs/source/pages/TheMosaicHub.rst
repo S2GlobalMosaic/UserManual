@@ -30,17 +30,18 @@ mail address. Click on the verification button and you will receive the confirma
 
 Mosaic Ordering
 ***************
-This page describes the process of ordering  mosaics, from defining the conditions to the download of the processed product.
-The ordering of :ref:`time_series` is described below.
+This section describes the process of ordering  mosaics, from defining the request to the download of the processed product.
+The ordering of :ref:`time_series` information is described further below.
 
 Mosaic Hub
 ==========
 
-The Mosaic Hub is located `here <https://apps.sentinel-hub.com/mosaic-hub/>`_.
-
+The Mosaic Hub is located `here <https://apps.sentinel-hub.com/mosaic-hub/>`_, here you can define your processing
+request and get time series information.
 However, in order to download the processed products, you will have to install the "Mosaic Downloader" App.
-In fact, this App has the same functionality like the browser instance. In order to avoid switching between browser and
-Mosaic Downloader, it might be more convenient to work with the App from the beginning.
+In fact, this App has the same functionality like the browser instance but also the data can be downloaded.
+In order to avoid switching between browser and Mosaic Downloader, it might be more convenient to work with
+the app from the beginning.
 
 
 Mosaic Downloader
@@ -68,19 +69,9 @@ When you launch the App, you will see a window like in :numref:`mosaicDownloader
 
    Mosaic Downloader App Window (Base view)
 
-.. _mosaicDownloaderAppS2:
-.. figure:: images/MosaicDownloaderAppS2.png
-   :name: mosaicDownloaderAppS2Name
-   :scale: 50%
-   :alt: Mosaic Downloader App Window (Sentinel view)
-   :align: center
-
-   Mosaic Downloader App Window (Sentinel view)
 
 The menu of the App on the top will bring up the following functionality after clicking:
 
-.. .. todo::
-   Replace TBD with content. Discuss with Sinergise what shall be behind the links.
 
 +--------------------------+-----------------------------------------------------------------------------------------+
 | Menu Button              |  Functionality                                                                          |
