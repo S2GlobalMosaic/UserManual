@@ -25,9 +25,9 @@ copyright = '2018, Copernicus Programme'
 author = 'Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
 
 # The short X.Y version
-version = '0.4'
+version = '1.0.0'
 # The full version, including alpha/beta/rc tags
-release = '0.4Dev'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -99,6 +99,12 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# A list of paths that contain extra files not directly related to the documentation,
+# such as robots.txt or .htaccess. Relative paths are taken as relative to the
+# configuration directory. They are copied to the output directory. They will overwrite
+# any existing file of the same name.
+html_extra_path = ['_downloads']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
