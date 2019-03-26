@@ -21,6 +21,24 @@ $ make html
      
 This creates the HTML pages and the static directory structure for the documentation.
 
+### Versioning
+The file `conf.py` contains two version properties. The one is called `version` and the is `release`
+The version property should only contain the version number:
+```
+# The short X.Y version
+version = '0.4'
+```
+
+The release property should also contain some tag indicating for example that the version is still in development.
+
+```
+# The full version, including alpha/beta/rc tags
+release = '0.4-DEV'
+```
+
+If a release of the manual shall be done. Both version shall be the same and the GitHub repository shall be tagged with 
+this version.
+
 ## Editing
 
 ### reST Format Documentation
