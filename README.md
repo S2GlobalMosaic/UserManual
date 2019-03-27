@@ -39,6 +39,8 @@ release = '0.4-DEV'
 If a release of the manual shall be done. Both version shall be the same and the GitHub repository shall be tagged with 
 this version.
 
+Afterwards check the setting in the readthedocs project if the versions are correctly accessible
+
 ## Editing
 
 ### reST Format Documentation
