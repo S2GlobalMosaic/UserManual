@@ -2,7 +2,7 @@
 References
 ##########
 
-.. [S2GMATBD] Kirches, G. (2018). :download:`Algorithm Theoretical Basis Document Sentinel 2 Global Mosaics <download/S2GM-SC2-ATBD-BC-v1.3.pdf>`
+.. [S2GMATBD] Kirches, G. (2018). :download:`Algorithm Theoretical Basis Document Sentinel 2 Global Mosaics <download/S2GM-SC2-ATBD-BC-v1.1.pdf>`
 .. [SEN2COR] `Sen2Cor atmospheric correction processor <http://step.esa.int/main/third-party-plugins-2/sen2cor/>`_
 .. [SEN2CORDOC] ESA 2018: `sen2cor Configuration And User Manual <http://step.esa.int/thirdparties/sen2cor/2.5.5/docs/S2-PDGS-MPC-L2A-SUM-V2.5.5_V2.pdf>`_
 
