@@ -20,14 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'S2GM User Manual'
-copyright = '2018, Copernicus Programme'
-# copyright = '2018, Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
+copyright = '2019, Copernicus Programme'
 author = 'Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
 
 # The short X.Y version
 version = '1.1.0'
 # The full version, including alpha/beta/rc tags
-release = '1.1.0-DEV'
+release = '1.1.0'
 
 
 # -- General configuration ---------------------------------------------------
