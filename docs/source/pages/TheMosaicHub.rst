@@ -178,7 +178,7 @@ Select a three-month period by clicking on the buttons Q1-Q4 (:numref:`compositi
 The selection of the desired month as compositing period is straightforward (:numref:`compositingMonth`).
 
 .. _compositing10Days:
-.. figure:: images/Compositing10Days.png
+.. figure:: images/Compositing10Days-2.png
    :name: compositing10DaysName
    :scale: 50%
    :alt: Compositing Dialog (10 days)
