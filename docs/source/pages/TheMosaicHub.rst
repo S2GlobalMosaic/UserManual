@@ -144,7 +144,7 @@ Unavailable periods are disabled and marked in grey colour. In the 10-day and th
 from drop-down lists. The forward and backward scrolling can be done by clicking on the arrow symbol.
 
 .. _compositingYear:
-.. figure:: images/CompositingPeriodYear.png
+.. figure:: images/CompositingPeriodYear-2.png
    :name: compositingYearName
    :scale: 50%
    :alt: Compositing Dialog (Year)
@@ -155,7 +155,7 @@ from drop-down lists. The forward and backward scrolling can be done by clicking
 As it can be seen in :numref:`compositingYear`, one can select a complete year as compositing period by clicking on it.
 
 .. _compositingQuarter:
-.. figure:: images/CompositingPeriodQuarter.png
+.. figure:: images/CompositingPeriodQuarter-2.png
    :name: compositingQuarterName
    :scale: 50%
    :alt: Compositing Dialog (Quarter)
@@ -167,7 +167,7 @@ Select a three-month period by clicking on the buttons Q1-Q4 (:numref:`compositi
 
 
 .. _compositingMonth:
-.. figure:: images/CompositingPeriodMonth.png
+.. figure:: images/CompositingPeriodMonth-2.png
    :name: compositingMonthName
    :scale: 50%
    :alt: Compositing Dialog (Month)
@@ -186,12 +186,17 @@ The selection of the desired month as compositing period is straightforward (:nu
 
    Compositing Dialog (10 days)
 
-The definition of a ten-day-period is bound to pre-defined, fixed intervals.
-The latter are displayed on the specific tab. Start and end days are marked in dark green,
-the intermediate values in light green (see :numref:`compositing10Days`). Clicking on either day in the interval yields the same result.
+The definition of a ten-day-period is bound to the following intervals:
+
+#. days  1 - 10
+#. days 11 - 20
+#. days 21 - end of the month
+
+If the month has 31 days, the third interval obviously contains 11 days, like in :numref:`compositing10Days`. Start and end days are marked in dark green,
+the intermediate values in light green. Clicking on either day in the interval yields the same result.
 
 .. _compositingDay:
-.. figure:: images/CompositingPeriodDay.png
+.. figure:: images/CompositingPeriodDay-2.png
    :name: compositingDayName
    :scale: 50%
    :alt: Compositing Dialog (Day)
