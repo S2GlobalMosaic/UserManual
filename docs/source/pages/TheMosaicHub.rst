@@ -30,18 +30,17 @@ mail address. Click on the verification button and you will receive the confirma
 
 Mosaic Ordering
 ***************
-This section describes the process of ordering  mosaics, from defining the request to the download of the processed product.
-The ordering of :ref:`time_series` information is described further below.
+This page describes the process of ordering  mosaics, from defining the conditions to the download of the processed product.
+The ordering of :ref:`time_series` is described below.
 
 Mosaic Hub
 ==========
 
-The Mosaic Hub is located `here <https://apps.sentinel-hub.com/mosaic-hub/>`_, here you can define your processing
-request and get time series information.
+The Mosaic Hub is located `here <https://apps.sentinel-hub.com/mosaic-hub/>`_.
+
 However, in order to download the processed products, you will have to install the "Mosaic Downloader" App.
-In fact, this App has the same functionality like the browser instance but also the data can be downloaded.
-In order to avoid switching between browser and Mosaic Downloader, it might be more convenient to work with
-the app from the beginning.
+In fact, this App has the same functionality like the browser instance. In order to avoid switching between browser and
+Mosaic Downloader, it might be more convenient to work with the App from the beginning.
 
 
 Mosaic Downloader
@@ -49,7 +48,7 @@ Mosaic Downloader
 In the Mosaic Hub, click on the drop-down menu item "Mosaic Downloader" like in :numref:`mosaicDownloaderMenu`.
 
 .. _mosaicDownloaderMenu:
-.. figure:: images/MosaicDownloaderMenu.png
+.. figure:: images/MosaicDownloaderMenuNew.png
    :name: mosaicDownloaderMenuName
    :scale: 50%
    :alt: Mosaic Downloader Menu Item
@@ -61,7 +60,7 @@ From there, you are able to download the App for your specific OS, or even launc
 When you launch the App, you will see a window like in :numref:`mosaicDownloaderAppBase`.
 
 .. _mosaicDownloaderAppBase:
-.. figure:: images/MosaicDownloaderAppBase.png
+.. figure:: images/MosaicDownloaderAppBaseNew.png
    :name: mosaicDownloaderAppBaseName
    :scale: 50%
    :alt: Mosaic Downloader App Window (Base view)
@@ -69,9 +68,19 @@ When you launch the App, you will see a window like in :numref:`mosaicDownloader
 
    Mosaic Downloader App Window (Base view)
 
+.. _mosaicDownloaderAppS2:
+.. figure:: images/MosaicDownloaderAppS2New.png
+   :name: mosaicDownloaderAppS2Name
+   :scale: 50%
+   :alt: Mosaic Downloader App Window (Sentinel view)
+   :align: center
+
+   Mosaic Downloader App Window (Sentinel view)
 
 The menu of the App on the top will bring up the following functionality after clicking:
 
+.. .. todo::
+   Replace TBD with content. Discuss with Sinergise what shall be behind the links.
 
 +--------------------------+-----------------------------------------------------------------------------------------+
 | Menu Button              |  Functionality                                                                          |
@@ -100,7 +109,7 @@ Area Selection
 --------------
 
 .. _areaSelection:
-.. figure:: images/AreaSelection.png
+.. figure:: images/AreaSelectionNew.png
    :name: areaSelectionName
    :scale: 100%
    :alt: Area Selection
@@ -110,14 +119,13 @@ Area Selection
 
 As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options exist to define the area for which the mosaic product will be generated (Note: Your product might be split into several tiles if it spans a large area - see also the warning displayed on :numref:`orderPanelOrder`):
 
-* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`)
-* Uploading a Google KML/KMZ file or an ESRI shapefile (coordinates must be in WGS84); the upload button is located on the second tab in the area selection menu of the configuration menu
-* Selection of a pre-defined area, i.e. a country or a continent, in the dropdown menus of the configuration menu
-* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon
+* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`).
+* Uploading a kml or kmz shape file; the upload button is located on the second tab in the area selection menu of the configuration menu.
+* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon.
 
 
 .. _drawingTools:
-.. figure:: images/DrawingTools.png
+.. figure:: images/DrawingToolsNewEdit.png
    :name: drawingToolsName
    :scale: 100%
    :alt: Drawing Tools
@@ -126,13 +134,24 @@ As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options 
    Drawing Tools
 
 .. _WKT:
-.. figure:: images/WKT.png
+.. figure:: images/WKTNew.png
    :name: wktName
    :scale: 75%
    :alt: WKT Example
    :align: center
 
    WKT Example
+
+Clicking on the "Drag Layers" tool (see :numref:`drawingTools`) brings up handles at the polygon that you can move around. When you move a handle, new handles are added in between (see :numref:`dragPoints`).
+
+.. _dragPoints:
+.. figure:: images/PolygonEdit.gif
+   :name: dragPointsName
+   :scale: 100%
+   :alt: Drag Points Tools
+   :align: center
+
+   Polygon Editing
 
 
 Compositing Periods
@@ -144,7 +163,7 @@ Unavailable periods are disabled and marked in grey colour. In the 10-day and th
 from drop-down lists. The forward and backward scrolling can be done by clicking on the arrow symbol.
 
 .. _compositingYear:
-.. figure:: images/CompositingPeriodYear-2.png
+.. figure:: images/CompositingPeriodYear.png
    :name: compositingYearName
    :scale: 50%
    :alt: Compositing Dialog (Year)
@@ -155,7 +174,7 @@ from drop-down lists. The forward and backward scrolling can be done by clicking
 As it can be seen in :numref:`compositingYear`, one can select a complete year as compositing period by clicking on it.
 
 .. _compositingQuarter:
-.. figure:: images/CompositingPeriodQuarter-2.png
+.. figure:: images/CompositingPeriodQuarter.png
    :name: compositingQuarterName
    :scale: 50%
    :alt: Compositing Dialog (Quarter)
@@ -167,7 +186,7 @@ Select a three-month period by clicking on the buttons Q1-Q4 (:numref:`compositi
 
 
 .. _compositingMonth:
-.. figure:: images/CompositingPeriodMonth-2.png
+.. figure:: images/CompositingPeriodMonth.png
    :name: compositingMonthName
    :scale: 50%
    :alt: Compositing Dialog (Month)
@@ -178,7 +197,7 @@ Select a three-month period by clicking on the buttons Q1-Q4 (:numref:`compositi
 The selection of the desired month as compositing period is straightforward (:numref:`compositingMonth`).
 
 .. _compositing10Days:
-.. figure:: images/Compositing10Days-2.png
+.. figure:: images/Compositing10Days.png
    :name: compositing10DaysName
    :scale: 50%
    :alt: Compositing Dialog (10 days)
@@ -186,17 +205,12 @@ The selection of the desired month as compositing period is straightforward (:nu
 
    Compositing Dialog (10 days)
 
-The definition of a ten-day-period is bound to the following intervals:
-
-#. days  1 - 10
-#. days 11 - 20
-#. days 21 - end of the month
-
-If the month has 31 days, the third interval obviously contains 11 days, like in :numref:`compositing10Days`. Start and end days are marked in dark green,
-the intermediate values in light green. Clicking on either day in the interval yields the same result.
+The definition of a ten-day-period is bound to pre-defined, fixed intervals.
+The latter are displayed on the specific tab. Start and end days are marked in dark green,
+the intermediate values in light green (see :numref:`compositing10Days`). Clicking on either day in the interval yields the same result.
 
 .. _compositingDay:
-.. figure:: images/CompositingPeriodDay-2.png
+.. figure:: images/CompositingPeriodDay.png
    :name: compositingDayName
    :scale: 50%
    :alt: Compositing Dialog (Day)
