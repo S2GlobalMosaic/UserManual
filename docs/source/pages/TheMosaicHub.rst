@@ -48,7 +48,7 @@ Mosaic Downloader
 In the Mosaic Hub, click on the drop-down menu item "Mosaic Downloader" like in :numref:`mosaicDownloaderMenu`.
 
 .. _mosaicDownloaderMenu:
-.. figure:: images/MosaicDownloaderMenu.png
+.. figure:: images/MosaicDownloaderMenuNew.png
    :name: mosaicDownloaderMenuName
    :scale: 50%
    :alt: Mosaic Downloader Menu Item
@@ -109,7 +109,7 @@ Area Selection
 --------------
 
 .. _areaSelection:
-.. figure:: images/AreaSelection.png
+.. figure:: images/AreaSelectionNew.png
    :name: areaSelectionName
    :scale: 100%
    :alt: Area Selection
@@ -119,14 +119,13 @@ Area Selection
 
 As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options exist to define the area for which the mosaic product will be generated (Note: Your product might be split into several tiles if it spans a large area - see also the warning displayed on :numref:`orderPanelOrder`):
 
-* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`)
-* Uploading a kml or kmz shape file; the upload button is located on the second tab in the area selection menu of the configuration menu
-* Selection of a pre-defined area, i.e. a country or a continent, in the dropdown menus of the configuration menu
-* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon
+* Drawing a rectangular or a polygon of arbitrary geometry on the map after selecting the corresponding icon in the menu on the upper right of the map (see :numref:`drawingTools`).
+* Uploading a kml or kmz shape file; the upload button is located on the second tab in the area selection menu of the configuration menu.
+* Entering the area boundaries in WKT format (see :numref:`Fig. {number}: {name} <WKT>`; note that in WKT the first and last co-ordinates must be identical to close the polygon.
 
 
 .. _drawingTools:
-.. figure:: images/DrawingTools.png
+.. figure:: images/DrawingToolsNewEdit.png
    :name: drawingToolsName
    :scale: 100%
    :alt: Drawing Tools
@@ -135,13 +134,24 @@ As depicted in :numref:`Fig. {number}: {name} <areaSelection>`, several options 
    Drawing Tools
 
 .. _WKT:
-.. figure:: images/WKT.png
+.. figure:: images/WKTNew.png
    :name: wktName
    :scale: 75%
    :alt: WKT Example
    :align: center
 
    WKT Example
+
+Clicking on the "Drag Layers" tool (see :numref:`drawingTools`) brings up handles at the polygon that you can move around. When you move a handle, new handles are added in between (see :numref:`dragPoints`).
+
+.. _dragPoints:
+.. figure:: images/PolygonEdit.gif
+   :name: dragPointsName
+   :scale: 100%
+   :alt: Drag Points Tools
+   :align: center
+
+   Polygon Editing
 
 
 Compositing Periods
