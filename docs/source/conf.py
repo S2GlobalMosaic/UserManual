@@ -20,14 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'S2GM User Manual'
-copyright = '2018, Copernicus Programme'
-# copyright = '2018, Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
+copyright = '2019, Copernicus Programme'
 author = 'Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
 
 # The short X.Y version
-version = '0.4'
+version = '1.1.1'
 # The full version, including alpha/beta/rc tags
-release = '0.4Dev'
+release = '1.1.1-DEV'
 
 
 # -- General configuration ---------------------------------------------------
@@ -35,6 +34,7 @@ release = '0.4Dev'
 # If your documentation needs a minimal Sphinx version, state it here.
 #
 # needs_sphinx = '1.0'
+#
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -100,6 +100,12 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# A list of paths that contain extra files not directly related to the documentation,
+# such as robots.txt or .htaccess. Relative paths are taken as relative to the
+# configuration directory. They are copied to the output directory. They will overwrite
+# any existing file of the same name.
+html_extra_path = ['_downloads']
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -121,6 +127,9 @@ htmlhelp_basename = 'S2GMUserManualdoc'
 
 # If true, links to the reST sources are added to the pages.
 html_show_sourcelink = False
+# If true, the reST sources are included in the HTML build as _sources/name
+html_copy_source = False
+
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True
 html_show_sphinx = False
