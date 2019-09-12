@@ -60,7 +60,7 @@ From there, you are able to download the App for your specific OS, or even launc
 When you launch the App, you will see a window like in :numref:`mosaicDownloaderAppBase`.
 
 .. _mosaicDownloaderAppBase:
-.. figure:: images/MosaicDownloaderAppBase.png
+.. figure:: images/MosaicDownloaderAppBaseNew.png
    :name: mosaicDownloaderAppBaseName
    :scale: 50%
    :alt: Mosaic Downloader App Window (Base view)
@@ -69,7 +69,7 @@ When you launch the App, you will see a window like in :numref:`mosaicDownloader
    Mosaic Downloader App Window (Base view)
 
 .. _mosaicDownloaderAppS2:
-.. figure:: images/MosaicDownloaderAppS2.png
+.. figure:: images/MosaicDownloaderAppS2New.png
    :name: mosaicDownloaderAppS2Name
    :scale: 50%
    :alt: Mosaic Downloader App Window (Sentinel view)
