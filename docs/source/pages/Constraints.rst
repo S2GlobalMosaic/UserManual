@@ -12,7 +12,7 @@ of the Mosaic Hub.
 **Known Issues**
 
 * Cloud border often visible (especially short periods)
-* Swath boarder artefacts
+* Swath boarder artifacts
 * Replaced clouds are visible caused by exchanged surface reflectance values
 * Selection of undetected  or clouds classified as snow
 
