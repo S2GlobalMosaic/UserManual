@@ -24,9 +24,9 @@ copyright = '2019, Copernicus Programme'
 author = 'Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
 
 # The short X.Y version
-version = '1.1.2'
+version = '1.1.3'
 # The full version, including alpha/beta/rc tags
-release = '1.1.2'
+release = '1.1.3-DEV'
 
 # -- General configuration ---------------------------------------------------
 
