@@ -12,13 +12,13 @@ of the Mosaic Hub.
 **Known Issues**
 
 * Cloud border often visible (especially short periods)
-* Swath boarder artefacts
+* Swath boarder artifacts
 * Replaced clouds are visible caused by exchanged surface reflectance values
 * Selection of undetected  or clouds classified as snow
 
 1 Mio square km direct order limit
 **********************************
-In case the bounding box of the order area includes more than 1 million m², product size will be very large and processing time may
+In case the bounding box of the order area includes more than 1 million km², product size will be very large and processing time may
 be considerable. In this case, we will get in touch with you in order identify the best way of production scheduling and
 product distribution.
 
