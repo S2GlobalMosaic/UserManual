@@ -48,7 +48,7 @@ The algorithm used here for the generation of Sentinel-2 mosaics selects the ori
 that is supposed to be most representative for the mosaicking period.
 The only manipulation of actual measured values may come from the resampling required to arrive at a common spatial resolution of the output format.
 There are two distinct methods used for selection of the best pixel, namely the Medoid and the Short-Term Composite (STC).
-They are briefly introduced below, and all steps are described in full detail in the ATBD.
+They are briefly introduced below, and all steps are described in full detail in the [S2GMATBD]_.
 While both methods are sufficiently simple and robust for automated large-scale application,
 the quality of the resulting mosaics are sensitive to errors in Sen2Cor’s scene classification and to an optional pre-filtering of input products based on the scene classification.
 
@@ -119,13 +119,13 @@ The compositing approach has been designed to preferentially select valid land s
 snow, and atmospheric contamination. Therefore, the composited mosaics are not for studies of cloud, snow or the atmosphere.
 Compared to WELD, the STC has to work without the thermal bands available on Landsat 8, and is adapted to the spectral characteristics,
 as well as the Scene Classification available in the Sentinel-2 L2A product.
-STC is part of the S2GM processing chain. The ATBD provides a detailed description of this algorithm.
+STC is part of the S2GM processing chain. The [S2GMATBD]_ provides a detailed description of this algorithm.
 
 Medoid Composite [RS512]_
 -------------------------
 The Medoid composite is part of the combined mosaicking algorithm to produce the composites in the S2GM service.
 The approach determines the medoid of a set of observations which can be considered as a representative value in a period.
-The algorithm is described in detail in the ATBD.
+The algorithm is described in detail in the [S2GMATBD]_.
 
 Spatial resampling
 ==================
