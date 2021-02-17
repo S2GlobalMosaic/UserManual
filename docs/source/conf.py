@@ -26,7 +26,7 @@ author = 'Brockmann Consult GmbH, Sinergise LTD., GeoVille GmbH'
 # The short X.Y version
 version = '1.1.3'
 # The full version, including alpha/beta/rc tags
-release = '1.1.3-DEV'
+release = '1.1.3'
 
 # -- General configuration ---------------------------------------------------
 
