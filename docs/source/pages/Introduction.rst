@@ -10,7 +10,7 @@ Introduction
    :align: right
 
 The Sentinel-2 Global Mosaic service offers mosaic surface reflectance products derived from the Sentinel-2 A and B platforms.
-Input to the processing are the Level 2A (L2A) products provided by the Copernicus Ground Segment, i.e. ESA Sentinel-2 core products.
+Input to the processing is the Level 2A (L2A) products provided by the Copernicus Ground Segment, i.e. ESA Sentinel-2 core products.
 The S2GM service generates regional and temporal composites at global scale and produced on-demand over specific areas of interest.
 Mosaics consist of best representative spectra for a given pixel location and compositing period, ensuring the consistency of spectra and thus the radiometric quality of the products.
 

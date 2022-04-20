@@ -372,7 +372,7 @@ The User Area is the place where you can download your products after completion
 allows you to monitor and cancel your orders during production or get in touch with the S2GM team in case of issues.
 After completion of a production, your products will be available for a period of 2 weeks for download.
 The User Area displays all current mosaic orders. You are able to filter for a production name to narrow your search.
-If something went wrong, you can inform the S2GM team by clicking on the envelope icon. Orders can be cancelled by clicking
+If something went wrong, you could inform the S2GM team by clicking on the envelope icon. Orders can be cancelled by clicking
 on the red cross icon. If the status of an order is finished, the download icon changes to green. When you click on it,
 the download dialog will be displayed (:numref:`mosaicDownloaderList`). You first have to select a download directory
 that you can change later if needed.
