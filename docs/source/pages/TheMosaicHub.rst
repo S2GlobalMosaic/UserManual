@@ -330,7 +330,7 @@ Successful processing changes the "Generate" button into the following message (
    Time Series Generated Message
 
 Additionally, the pixels marked in :numref:`timeSeriesPixels` get a green border. Hovering over pixels will quickly display
-their values and metadata; clicking on pixels will display the values on a page with the option to export data to a CSV file (:numref:`timeSeriesData`).
+their values and metadata; clicking on pixels will display the values on a page with the option to export data into a CSV file (:numref:`timeSeriesData`).
 
 .. _timeSeriesHover:
 .. figure:: images/TimeSeriesHover.png
